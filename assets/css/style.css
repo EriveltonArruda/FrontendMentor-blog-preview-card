@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 1440px;
+  height: 96rem;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 38.4rem;
+  height: 52.2rem;
+  margin: 15rem 60rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2.4rem;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 10px 10px #000;
+  border-radius: 2rem;
+  font-family: "Figtree", sans-serif;
+}
+
+.card-img {
+  width: 33.6rem;
+  height: 20rem;
+}
+
+.card-img img {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.card .text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 33.6rem;
+  height: 19.4rem;
+  padding: 1.2rem 0;
+  font-family: "Figtree", sans-serif;
+}
+
+.card .text-area .learning {
+  display: inline-block;
+  width: 8.2rem;
+  height: 2.9rem;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 0.4rem;
+  margin-top: -1rem;
+  font-weight: 800;
+}
+
+.card .text-area .learning p {
+  font-size: 1.4rem;
+  padding: 0.4rem 1rem;
+  font-weight: 800;
+}
+
+.card .text-area p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+  line-height: 1.5;
+}
+
+.card .text-area h1 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  color: hsl(0, 0%, 7%);
+}
+
+.card .text-area .context {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: hsl(0, 0%, 42%);
+}
+
+.card .author {
+  display: flex;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  gap: 1.2rem;
+}
+
+.card .author img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.card .author p {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+.attribution {
+  margin-top: -12rem;
+  margin-left: 68rem;
+}
