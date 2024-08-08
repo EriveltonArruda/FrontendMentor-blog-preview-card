@@ -78,6 +78,10 @@ body {
   color: hsl(0, 0%, 7%);
 }
 
+.card .text-area h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+
 .card .text-area .context {
   font-size: 1.6rem;
   font-weight: 500;
